@@ -5,10 +5,21 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
+
+}
+
+.title-image {
+  max-width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+
 }
 
 #features {
-  padding: 7% 15%
+  padding: 7% 15%;
+  background: #fff;
+  position: relative;
 }
 
 #feedback-icons {
@@ -26,7 +37,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -44,7 +55,7 @@ h3{
 h2 {
   font-family: "Montserrat";
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -79,7 +90,7 @@ p{
   margin: 5% 3% 5% 0;
 }
 
-.title-image {width: 60%; transform: rotate(25deg);}
+
 
 
 /* testimonial-section */
@@ -92,7 +103,7 @@ p{
 }
 
 .testimonial-image {
-  width: 10%;
+  width: 7%;
   border-radius: 100%;
   margin: 2%;
 }
@@ -111,5 +122,18 @@ p{
 }
 
 .carousel-item{
-  padding: 7% 20%;
+  padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
 }
